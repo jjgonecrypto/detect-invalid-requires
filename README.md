@@ -3,5 +3,5 @@ Simple utility to detect invalid modular requires that do not match in a case se
 Usage
 ===
 
-npm install -g detect-invalid-requires
-detect-invalid-requires (files)
+    npm install -g detect-invalid-requires
+    detect-invalid-requires (files)
