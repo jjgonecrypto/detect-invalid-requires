@@ -9,10 +9,14 @@
   "author": "justin j. moses",
   "license": "ISC",
   "bin": "lib/cli.js",
+  "repository": "https://github.com/justinjmoses/detect-invalid-requires",
   "dependencies": {
-    "esprima": "=1.2.x"
+    "esprima": "1.2.x",
+    "esquery": "0.3.x",
+    "walker": "1.0.x"
   },
   "devDependencies": {
-    "chai": "=1.9.x"
+    "chai": "1.9.x",
+    "mocha": "1.21.x"
   }
 }
