@@ -11,6 +11,7 @@
   "bin": "lib/cli.js",
   "repository": "https://github.com/justinjmoses/detect-invalid-requires",
   "dependencies": {
+    "commander": "^2.3.0",
     "esprima": "1.2.x",
     "esquery": "0.3.x",
     "walker": "1.0.x"
