@@ -2,7 +2,7 @@
 
 'use strict';
 
-var detector = require('./index');
+var detector = require('../lib/index');
 var program = require('commander');
 
 program

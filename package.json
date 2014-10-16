@@ -8,7 +8,9 @@
   },
   "author": "justin j. moses",
   "license": "ISC",
-  "bin": "lib/cli.js",
+  "bin": {
+    "detect-invalid-requires": "lib/cli"
+  },
   "repository": "https://github.com/justinjmoses/detect-invalid-requires",
   "dependencies": {
     "commander": "^2.3.0",
