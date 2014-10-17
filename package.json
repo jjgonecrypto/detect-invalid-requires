@@ -1,6 +1,6 @@
 {
     "name": "detect-invalid-requires",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "utility to detect requires that are not legal in a case-sensitive OS",
     "main": "lib/index.js",
     "scripts": {
@@ -12,8 +12,8 @@
         "detect-invalid-requires": "lib/cli"
     },
     "repository": "https://github.com/justinjmoses/detect-invalid-requires",
-    "engines" : {
-      "node" : "0.10.x"
+    "engines": {
+        "node": "0.10.x"
     },
     "dependencies": {
         "colors": "=1.0.x",
