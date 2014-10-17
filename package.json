@@ -1,6 +1,6 @@
 {
   "name": "detect-invalid-requires",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "utility to detect requires that are not legal in a case-sensitive OS",
   "main": "lib/index.js",
   "scripts": {
