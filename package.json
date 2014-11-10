@@ -1,29 +1,29 @@
 {
-    "name": "detect-invalid-requires",
-    "version": "0.1.8",
-    "description": "utility to detect requires that are not legal in a case-sensitive OS",
-    "main": "lib/index.js",
-    "scripts": {
-        "test": "mocha test"
-    },
-    "author": "justin j. moses",
-    "license": "ISC",
-    "bin": {
-        "detect-invalid-requires": "bin/cli"
-    },
-    "repository": "https://github.com/justinjmoses/detect-invalid-requires",
-    "engines": {
-        "node": "0.10.x"
-    },
-    "dependencies": {
-        "colors": "=1.0.x",
-        "commander": "2.3.x",
-        "esprima": "1.2.x",
-        "esquery": "0.3.x",
-        "walker": "1.0.x"
-    },
-    "devDependencies": {
-        "chai": "1.9.x",
-        "mocha": "1.21.x"
-    }
+  "name": "detect-invalid-requires",
+  "version": "0.1.9",
+  "description": "utility to detect requires that are not legal in a case-sensitive OS",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "justin j. moses",
+  "license": "ISC",
+  "bin": {
+    "detect-invalid-requires": "bin/cli"
+  },
+  "repository": "https://github.com/justinjmoses/detect-invalid-requires",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "colors": "=1.0.x",
+    "commander": "2.3.x",
+    "esprima": "1.2.x",
+    "esquery": "0.3.x",
+    "walker": "1.0.x"
+  },
+  "devDependencies": {
+    "chai": "1.9.x",
+    "mocha": "1.21.x"
+  }
 }
