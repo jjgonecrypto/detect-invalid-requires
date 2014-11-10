@@ -9,7 +9,7 @@
     "author": "justin j. moses",
     "license": "ISC",
     "bin": {
-        "detect-invalid-requires": "lib/cli"
+        "detect-invalid-requires": "bin/cli"
     },
     "repository": "https://github.com/justinjmoses/detect-invalid-requires",
     "engines": {
