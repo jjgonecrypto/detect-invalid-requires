@@ -11,6 +11,13 @@ describe('detector', function () {
             done();
         });
     });
+    it('handles default options', function (done) {
+        detector('./test/harness', function (invalid) {
+            expect(invalid.length).to.equal(1);
+            expect(invalid[0].path).to.equal('./fileb');
+            done();
+        });
+    });
     it('ignores patterns', function (done) {
         detector('./test/harness', { ignore: ['folderA'] }, function (invalid) {
             expect(invalid.length).to.equal(0);

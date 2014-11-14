@@ -30,7 +30,7 @@ API
 ----
 
 ```javascript
-detector(path: String, options: Object, callback: Function(files:Array[{file, path}]))
+detector(path: String, options: Object = {}, callback: Function(files:Array[{file, path}]))
 ```
 
 ###Example
