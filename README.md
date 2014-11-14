@@ -1,5 +1,15 @@
 [![Build Status](https://travis-ci.org/justinjmoses/detect-invalid-requires.png)](https://travis-ci.org/justinjmoses/detect-invalid-requires)
 
+**-- Defunct --**
+
+**Notice: This repository is no longer worked on**
+
+Please use [valiquire](https://github.com/thlorenz/valiquire) - it more fully supports node module paths (including folder and absolute paths).
+
+
+***************
+***************
+
 Simple utility to detect invalid relative require paths that do not exist.
 It is case-sensitive, so in particular it is useful when developers are all on
 case insensitive dev machines (OSX and Windows), yet CI server is Linux.
